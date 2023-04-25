@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.subheader {
+    background-color: #1F2937;
+    color: white;
+}
+
+.sign-up-content {
+    background-color: #3882F6;
+    color: white;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
