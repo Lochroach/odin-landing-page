@@ -1,21 +1,138 @@
 body {
     min-height: 100vh;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    padding: 25px 150px 25px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
 }
 
 .subheader {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    padding: 50px 200px;
+    gap: 2rem;
+}
+
+.image-container {
+    display: flex;
+}
+
+img {
+    width: 300px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-wrapper > .main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.content-wrapper > .sub-text {
+
+}
+
+.content-wrapper > .sign-up-button {
+    max-width: fit-content;
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.information .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box-wrapper {
+    display: flex;
+    width: 500px;
+    gap: 1rem;
+}
+
+.box {
+
+}
+
+p {
+    font-size: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 400px;
+}
+
+.quote > .main-text {
+    height: fit-content;
+    width: 300px;
+    flex-basis: 100%;
+}
+
+.quote > .author {
+    margin-left: auto;
+}
+
+.sign-up-wrapper {
+
 }
 
 .sign-up-content {
     background-color: #3882F6;
     color: white;
+    height: 200px;
+}
+
+.sign-up-content > .main-text {
+
+}
+
+.sign-up-content > .sub-text {
+
 }
 
 .sign-up-button {
@@ -23,11 +140,11 @@ body {
     background-color: #3882F6;
 }
 
-.quote {
-    background-color: #E5E7EB;
-}
-
 .footer {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
 }
