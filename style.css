@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Verdana, sans-serif
 }
 
 .header {
@@ -21,8 +21,12 @@ body {
 
 .links {
     display: flex;
-    gap: 1rem;
-    font-size: 18px;
+    gap: 2rem;
+    font-size: 15px;
+}
+
+.shop {
+
 }
 
 .content {
@@ -116,26 +120,30 @@ img {
     text-align: center;
 }
 
-.quote {
-    background-color: #E5E7EB;
+.mars {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 100px 300px;
-    gap: 1rem;
+    height: 500px;
+    padding: 8px 75px 0 2rem;
+    background-image: url(desgin-images/mars-background.png);
 }
 
-.quote > .main-text {
+.quote {
     height: fit-content;
     width: 300px;
     flex-basis: 100%;
-    font-size: 36px;
-    font-style: italic;
+    font-size: 25px;
+    color: white;
+    padding-top: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.quote > .author {
+.author {
     margin-left: auto;
-    font-size: 20px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sign-up-wrapper {
@@ -143,14 +151,15 @@ img {
     justify-content: center;
     align-items: center;
     padding: 50px;
+    background-color: black;
 }
 
 .sign-up-content {
-    background-color: #3882F6;
+    background-color: black;
     color: white;
     padding: 25px 50px;
     border-radius: 5px;
-    border: solid 1px #3882F6;
+    border: solid 1px white;
     display: flex;
     justify-content: space-between;
     width: 800px;
@@ -159,7 +168,6 @@ img {
 
 .sign-up-button {
     color: white;
-    background-color: #3882F6;
 }
 
 .button {
