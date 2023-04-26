@@ -161,16 +161,16 @@ img {
     background-color: black;
     color: white;
     display: flex;
-    width: 400px;
+    max-width: fit-content;
     gap: 2rem;
     align-items: center;
     font-size: 18px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .sign-up-content .main-text {
-    flex-basis: 100%;
+    flex: 1 1 100%;
 }
 
 .footer-links {
@@ -198,13 +198,18 @@ img {
     box-sizing: border-box;
 }
 
+.email-signup-area {
+    display: flex;
+    gap: 1rem;
+}
+
 .footer {
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    gap: 2rem;
+    gap: 200px;
 }
